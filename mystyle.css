@@ -1,0 +1,70 @@
+
+html *
+{
+   font-family: "Verdana", Courier, monospace;
+}
+#navBarId
+{
+  background-color:Tomato;
+  color:#FFFEF2;
+}
+#main
+{
+  background-color:#557A95;
+  color:#FFFEF2;
+}
+#main2
+{
+  text-align: center;
+}
+#codeImage
+{
+  filter: invert(100%) sepia(28%) saturate(593%) hue-rotate(352deg) brightness(107%) contrast(101%);
+}
+footer {
+  background-color: #555;
+  color: white;
+  padding: 15px;
+}
+#tableDiv{
+  border-style: solid;
+  border-width: 10px;
+  border-color: black;
+  padding: 0px;
+  border-radius: 20px;
+}
+#table1 {
+  border-radius: 10px;
+  border-style: solid;
+  border-color: grey;
+  font-size: 15px;
+  padding: 0px;
+}
+#display {
+  border-radius: 10px;
+  border-style: solid;
+  border-color: grey;
+  font-size: 40px;
+  padding: 0px;
+}
+#weatherCol{
+  font-size: 20px;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: grey;
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
+}
+.img {
+width:80%;
+}
+
+.text-over-img {
+  position: absolute;
+    top: 50%;
+    left: 40%;
+    color: white;
+    padding-left: 10%;
+    padding-right: 10%;
+}
