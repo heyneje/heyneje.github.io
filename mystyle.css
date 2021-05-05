@@ -20,7 +20,9 @@ html *
 }
 #Explanation
 {
-  border-style: solid;
+
+
+  border-left-style: solid;
 }
 #codeImage
 {
