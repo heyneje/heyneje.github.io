@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+      <link rel="stylesheet" href="mystyle.css">
+
+      <title>Final Project</title>
+   </head>
+   <body>
+      <div class= "container">
+         <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark" id = "navBarId">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+               <ul class="navbar-nav mr-auto">
+                  <li class="nav-item">
+                     <a class="nav-link" href="index.html" id = "navInfo">Information</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="" id = "navCal">Calculator</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="weather.html" id = "navWea">Weather</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="sensor.html" id = "navSen">Sensor Update</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="sensorReport.html" id = "navRep">Sensor Report</a>
+                  </li>
+               </ul>
+               <ul class="navbar-nav ml-auto">
+                 <li class="nav-item">
+               <li class="nav-item">
+                  <a class="nav-link" href="../portfolio.html" id = "navRep">Back To Portfolio</a>
+               </li>
+             </ul>
+            </div>
+         </nav>
+         <br>
+      </div>
+      <div class="jumbotron text-center" id = "main">
+         <div class = "container">
+            <div class = "row">
+               <div class = "col-sm-4"><img src="code_icon_final.png" alt = "Form Image" width= "100" height = "100" id = "codeImage"></div>
+               <div class = "col-sm-4">
+                  <h1>CSE 383 FINAL</h1>
+                  <h2>Calculator</h2>
+               </div>
+               <div class = "col-sm-4"><img src="code_icon_final.png" alt = "Form Image" width= "100" height = "100" id = "codeImage"></div>
+            </div>
+         </div>
+      </div>
+      <div class = "container text-center col-6" id = "main2">
+         <div class = "col" id = "tableDiv">
+            <div class = "container" >
+               <div class = "row" id = "display">
+                  <p style = "">Enter</p>
+               </div>
+               <div class = "row">
+                  <div class = col id = "table1">
+                     <button type="button" class="btn btn-outline-secondary" style ="width:100%;" id = "num0">0</button>
+                  </div>
+                  <div class = col id = "table1">
+                     <button type="button" class="btn btn-outline-secondary" style ="width:100%;" id = "num1">1</button>
+                  </div>
+                  <div class = col id = "table1">
+                     <button type="button" class="btn btn-outline-secondary" style ="width:100%;" id = "num2">2</button>
+                  </div>
+                  <div class = col id = "table1">
+                     <button type="button" class="btn btn-primary" style ="width:100%;" id = "opPlus">+</button>
+                  </div>
+               </div>
+               <div class = "row">
+                  <div class = col id = "table1">
+                     <button type="button" class="btn btn-outline-secondary" style ="width:100%;" id = "num3">3</button>
+                  </div>
+                  <div class = col id = "table1">
+                     <button type="button" class="btn btn-outline-secondary" style ="width:100%;" id = "num4">4</button>
+                  </div>
+                  <div class = col id = "table1">
+                     <button type="button" class="btn btn-outline-secondary" style ="width:100%;" id = "num5">5</button>
+                  </div>
+                  <div class = col id = "table1">
+                     <button type="button" class="btn btn-primary" style ="width:100%;" id = "opMin">-</button>
+                  </div>
+               </div>
+               <div class = "row">
+                  <div class = col id = "table1">
+                     <button type="button" class="btn btn-outline-secondary" style ="width:100%;" id = "num6">6</button>
+                  </div>
+                  <div class = col id = "table1">
+                     <button type="button" class="btn btn-outline-secondary" style ="width:100%;" id = "num7">7</button>
+                  </div>
+                  <div class = col id = "table1">
+                     <button type="button" class="btn btn-outline-secondary" style ="width:100%;" id = "num8">8</button>
+                  </div>
+                  <div class = col id = "table1">
+                     <button type="button" class="btn btn-primary" style ="width:100%;" id = "opDiv">/</button>
+                  </div>
+               </div>
+               <div class = "row">
+                  <div class = col id = "table1">
+                     <button type="button" class="btn btn-outline-secondary" style ="width:100%;" id = "opNeg">+/-</button>
+                  </div>
+                  <div class = col id = "table1">
+                     <button type="button" class="btn btn-outline-secondary" style ="width:100%;" id = "num9">9</button>
+                  </div>
+                  <div class = col id = "table1">
+                     <button type="button" class="btn btn-outline-secondary" style ="width:100%;" id = "opDot">.</button>
+                  </div>
+                  <div class = col id = "table1">
+                     <button type="button" class="btn btn-primary" style ="width:100%;" id = "opMult">*</button>
+                  </div>
+               </div>
+               <div class = "row">
+                  <div class = col id = "table1">
+                     <button type="button" class="btn btn-danger" style ="width:100%;" id = "opClear">C</button>
+                  </div>
+                  <div class = col id = "table1">
+                     <button type="button" class="btn btn-success" style ="width:100%;" id = "opSubmit">=</button>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <script src="https://code.jquery.com/jquery-3.4.1.min.js"               integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="               crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+      <script>
+         let val1 = null;
+         let val2 = null;
+         let op;
+         let clear = true;
+          $(document).ready(function(){
+            $("#main").slideUp(1);
+            $("#main2").slideUp(1);
+            $("#main").slideDown(1000);
+            $("#main2").slideDown(1000);
+            $("#navCal").css({"text-decoration": "underline"});
+            $('#tableDiv').on('click', function(event) {
+              var x = event.target.innerText;
+              switch(x) {
+                case "0": case "1":  case "2": case "3": case "4": case "5": case "6": case "7": case "8": case "9": case ".":
+                if(clear){
+                  $("#display").html("");
+                  clear = false;
+                }
+                if($("#display").html().substring(0,1) == "0"){
+                  $("#display").html("");
+                }
+                $("#display").html($("#display").html()+x);
+                break;
+                case "+/-":
+                $("#display").html(parseFloat($("#display").html())*-1);
+                break;
+
+                case "*": case "/": case "+": case "-":
+                var1 = parseFloat($("#display").html());
+                $("#display").html(x);
+                clear = true;
+                switch(x) {
+                  case "*":
+                  op = "Multiply";
+                  break;
+                  case "/":
+                  op = "Divide";
+                  break;
+                  case "+":
+                  op = "Add";
+                  break;
+                  case "-":
+                  op = "Subtract";
+                  break;
+                  default:
+                  // code block
+                }
+                break;
+
+                case "C":
+                $("#display").html("&nbsp;");
+                clear = true;
+                var1 = null;
+                var2 = null;
+                op = null;
+                break;
+                case "=":
+                let apiKey = "bed859b37ac6f1dd59387829a18db84c22ac99c09ee0f5fb99cb708364858818";
+                let webServer = "https://api.clearllc.com/api/v2/math/";
+                var2 = parseFloat($("#display").html());
+                a=$.ajax({
+                  url: webServer+op+"?api_key="+apiKey+"&n1="+var1+"&n2="+var2,
+                  method :"GET"
+                }).done(function(data){
+                  $("#display").html(data.result);
+                }).fail(function(error) {
+                  console.log("error",error.statusText);
+                  $("#display").html("Error");
+              	});
+                break;
+                default:
+              }
+            });
+          });
+      </script>
+   </body>
+</html>

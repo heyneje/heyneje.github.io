@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+      <link rel="stylesheet" href="mystyle.css">
+      <title>Final Project</title>
+   </head>
+   <body>
+      <div class= "container">
+         <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark" id = "navBarId">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+               <ul class="navbar-nav mr-auto">
+                  <li class="nav-item">
+                     <a class="nav-link" href="index.html" id = "navInfo">Information</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="calculator.html" id = "navCal">Calculator</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="" id = "navWea">Weather</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="sensor.html" id = "navSen">Sensor Update</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="sensorReport.html" id = "navRep">Sensor Report</a>
+                  </li>
+               </ul>
+               <ul class="navbar-nav ml-auto">
+                 <li class="nav-item">
+               <li class="nav-item">
+                  <a class="nav-link" href="../portfolio.html" id = "navRep">Back To Portfolio</a>
+               </li>
+             </ul>
+            </div>
+         </nav>
+         <br>
+      </div>
+      <div class="jumbotron text-center" id = "main">
+         <div class = "container">
+            <div class = "row">
+               <div class = "col-sm-4"><img src="code_icon_final.png" alt = "Form Image" width= "100" height = "100" id = "codeImage"></div>
+               <div class = "col-sm-4">
+                  <h1>CSE 383 FINAL</h1>
+                  <h2>Weather Forecast</h2>
+               </div>
+               <div class = "col-sm-4"><img src="code_icon_final.png" alt = "Form Image" width= "100" height = "100" id = "codeImage"></div>
+            </div>
+         </div>
+      </div>
+      <div class = "container text-center col-6" id = "main2">
+        <div class = "col">
+        <div class = "row">
+           <h1>Weather Forecast</h1>
+           </div>
+           <div class = "row">
+           <div class = "col-6">
+           <input class="form-control" type="number" placeholder="Enter Zip" id = "zipCode">
+           </div>
+           <div class = "col-2">
+           <button type="button" class="btn btn-info" id="submitButton">Submit</button>
+           </div>
+           </div>
+           </div>
+           <br>
+      </div>
+      <div class = "container text-center" id = "nameDisplay">
+        <h1 id = "city"> City Name:</h1>
+        </div>
+      <div class = "container" id = "displayWeather">
+        <div class = "row">
+          <div class = "col" id = "weatherCol">
+            <p id = "icon0"></p>
+            <h2 id = "name0">Name</h2>
+            <hr>
+            <h4 id = "forecase0">Forecast</h4>
+            <hr>
+            <p id = "high0">High: </p>
+            <p id = "low0">Low: </p>
+            <p id = "sunrise0">Sunrise</p>
+            <p id = "sunset0">Sunrise</p>
+          </div>
+          <div class = "col" id = "weatherCol">
+            <p id = "icon1"></p>
+            <h2 id = "name1">Name</h2>
+            <hr>
+            <h4 id = "forecase1">Forecast</h4>
+            <hr>
+            <p id = "high1">High: </p>
+            <p id = "low1">Low: </p>
+            <p id = "sunrise1">Sunrise</p>
+            <p id = "sunset1">Sunrise</p>
+          </div>
+          <div class = "col" id = "weatherCol">
+            <p id = "icon2"></p>
+            <h2 id = "name2">Name</h2>
+            <hr>
+            <h4 id = "forecase2">Forecast</h4>
+            <hr>
+            <p id = "high2">High: </p>
+            <p id = "low2">Low: </p>
+            <p id = "sunrise2">Sunrise</p>
+            <p id = "sunset2">Sunrise</p>
+          </div>
+          <div class = "col" id = "weatherCol">
+            <p id = "icon3"></p>
+            <h2 id = "name3">Name</h2>
+            <hr>
+            <h4 id = "forecase3">Forecast</h4>
+            <hr>
+            <p id = "high3">High: </p>
+            <p id = "low3">Low: </p>
+            <p id = "sunrise3">Sunrise</p>
+            <p id = "sunset3">Sunrise</p>
+          </div>
+          <div class = "col" id = "weatherCol">
+            <p id = "icon4"></p>
+            <h2 id = "name4">Name</h2>
+            <hr>
+            <h4 id = "forecase4">Forecast</h4>
+            <hr>
+            <p id = "high4">High: </p>
+            <p id = "low4">Low: </p>
+            <p id = "sunrise4">Sunrise</p>
+            <p id = "sunset4">Sunrise</p>
+          </div>
+          <div class = "col" id = "weatherCol">
+            <p id = "icon5"></p>
+            <h2 id = "name5">Name</h2>
+            <hr>
+            <h4 id = "forecase5">Forecast</h4>
+            <hr>
+            <p id = "high5">High: </p>
+            <p id = "low5">Low: </p>
+            <p id = "sunrise5">Sunrise</p>
+            <p id = "sunset5">Sunrise</p>
+          </div>
+          <div class = "col" id = "weatherCol">
+            <p id = "icon6"></p>
+            <h2 id = "name6">Name</h2>
+            <hr>
+            <h4 id = "forecase6">Forecast</h4>
+            <hr>
+            <p id = "high6">High: </p>
+            <p id = "low6">Low: </p>
+            <p id = "sunrise6">Sunrise</p>
+            <p id = "sunset6">Sunrise</p>
+          </div>
+
+                      </div>
+                      </div>
+
+      <script src="https://code.jquery.com/jquery-3.4.1.min.js"               integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="               crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+      <script>
+        let lat;
+        let long;
+         $(document).ready(function(){
+           $("#main").slideUp(1);
+           $("#main2").slideUp(1);
+           $("#displayWeather").slideUp(1);
+           $("#nameDisplay").slideUp(1);
+
+           $("#main").slideDown(1000);
+           $("#main2").slideDown(1000);
+
+
+           $("#navWea").css({"text-decoration": "underline"});
+           $('#submitButton').on('click', function(event) {
+             var zip = $("#zipCode").val();
+             var url = "https://api.clearllc.com/api/v2/miamidb/_table/zipcode?api_key=bed859b37ac6f1dd59387829a18db84c22ac99c09ee0f5fb99cb708364858818&ids="
+             a=$.ajax({
+               url: url+zip,
+               method :"GET"
+             }).done(function(data){
+               console.log(data);
+               $("#nameDisplay").slideDown(1000);
+               $("#city").html(data.resource[0].city + " " +data.resource[0].state + ", " + zip);
+               lat = data.resource[0].latitude;
+               long = data.resource[0].longitude;
+               console.log(lat + " " + long);
+               getWeather();
+             }).fail(function(error) {
+              alert("Invalid Zip code");
+              console.log(error.statusText);
+             });
+             });
+         });
+         function getWeather() {
+           var apiKey2 = "e45ff1fff62c13c7ab715093f9be46fd";
+           var newUrl = "https://api.openweathermap.org/data/2.5/onecall?lat=" + lat + "&lon=" + long + "&exclude=current,minutely,hourly,alerts&units=imperial&appid=" + apiKey2;
+           a=$.ajax({
+             url: newUrl,
+             method :"GET"
+           }).done(function(data){
+             $("#displayWeather").slideDown(1000);
+
+             var days = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];
+             var now = new Date();
+             var day;
+             var sunSetTime;
+             var sunRiseTime;
+             var dayName;
+             for(i = 0; i < 7; i++){
+               day = days[now.getDay()];
+               now.setDate(now.getDate()+1);
+               $("#icon"+i).html("<img src=\"" + "http://openweathermap.org/img/wn/" + data.daily[i].weather[0].icon + "@2x.png" + "\" class=\"img-fluid\" alt=\"Responsive image\">");
+               $("#name"+i).html(day);
+               $("#forecase"+i).html(data.daily[i].weather[0].description);
+               $("#high"+i).html("<img src = \"hot.png\" class=\"img-fluid\" alt=\"Responsive image\" width=\"50\" height=\"50\">" + (data.daily[i].temp.max).toString().substring(0,2) + "°F");
+               $("#low"+i).html("<img src = \"ice.png\" class=\"img-fluid\" alt=\"Responsive image\" width=\"50\" height=\"50\">" + (data.daily[i].temp.min).toString().substring(0,2) + "°F");
+                sunSetTime = new Date(data.daily[i].sunset * 1000);
+                sunRiseTime = new Date(data.daily[i].sunrise * 1000);
+                 if(sunRiseTime.getMinutes().toString().length < 2){
+                   $("#sunrise"+i).html("<img src = \"Sunrise.png\" class=\"img-fluid\" alt=\"Responsive image\" width=\"50\" height=\"50\">" + " " +sunRiseTime.getHours() + ":" + "0" + sunRiseTime.getMinutes() + " AM");
+                 }else {
+                $("#sunrise"+i).html("<img src = \"Sunrise.png\" class=\"img-fluid\" alt=\"Responsive image\" width=\"50\" height=\"50\">" + " " +sunRiseTime.getHours() + ":" + sunRiseTime.getMinutes() + " AM");
+              }
+              if(sunSetTime.getMinutes().toString().length < 2){
+                $("#sunset"+i).html("<img src = \"Sunset.png\" class=\"img-fluid\" alt=\"Responsive image\" width=\"50\" height=\"50\">" + " " +(parseInt(sunSetTime.getHours()) - 12) + ":" + "0" + sunSetTime.getMinutes() + " PM");
+              }else {
+              $("#sunset"+i).html("<img src = \"Sunset.png\" class=\"img-fluid\" alt=\"Responsive image\" width=\"50\" height=\"50\">" + " " +(parseInt(sunSetTime.getHours()) - 12) + ":" + sunSetTime.getMinutes() + " PM");
+            }
+          }
+
+           }).fail(function(error) {
+             console.log(error.statusText);
+             alert("error",error.statusText);
+           });
+
+         }
+
+      </script>
+   </body>
+</html>
