@@ -26,6 +26,10 @@ html *
   background-color: #8a9885;
   text-align: center;
 }
+#textBox
+{
+font-size: 1.8vw;
+}
 #Explanation
 {
 
