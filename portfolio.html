@@ -24,6 +24,9 @@
                   <li class="nav-item">
                      <a class="nav-link" href="portfolio.html" id = "navPort">Portfolio</a>
                   </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="contact.html" id = "navCal">Contact Me</a>
+                  </li>
                </ul>
             </div>
          </nav>
@@ -48,12 +51,13 @@
           <div class="col-sm-3 sidenav">
             <a href = "WebProject/index.html"><img src="HomePage.png" alt="Picture of me" class="img-fluid w-100"></a>
           </div>
-          <div class="col-sm-9">
-            <p> This was the final for my Web Development class. Everything was written from scratch by me, and it includes 5 pages. The first page
+          <div class="col-sm-9" id = "textBox2">
+            <p> <b> Click the photo on the left to view the project. The link at the top right of the screen will take you back. </b> <br>This was the final for my Web Development class. Everything was written from scratch by me, and it includes 5 pages. The first page
               is a simple home page that welcomes the reader to the website. The second page is a calculator that uses an API to calculate the result.
               The third page is a Weather Forecast page which allows the user to enter their Zip code and receive the 7 day forecast for their location.
               The fourth page is a meant to simulate a weather sensor by allowing the user to enter a Location, Sensor Number, and Value(temperature) and those data values will be added to a sql database.
-              The fifth page displays the contents of the SQL database, and allows the user to select number of results and to sort by location and sensor. <b> Click the photo on the left to enter the page </b></p>
+              The fifth page displays the contents of the SQL database, and allows the user to select number of results and to sort by location and sensor.
+            The web development class and that final project aswell taught me so much about Javascript and Web Devlopment as a whole. I would not be able to make this current website without them. </p>
           </div>
         </div>
         <div class="row content" id = "main2" >
@@ -64,11 +68,12 @@
       </div>
       <div class="row content" style = "background-color:#d1d1d1">
 
-        <div class="col-sm-9">
+        <div class="col-sm-9" id = "textBox2">
           <p> This was a side project I worked on during the winter break of 2020-2021 for fun. I used Unity to create the game and coded it in C#.
             The goal of the game is to get a ball down to the bottom of a hill full of obstacles. There are certain powerups and abilities that you
           can gain throughout the game which provides some variety. There are also bonus point items you can collect and a leaderboard, so you can compare
-        your high scores with your friends. </p>
+        your high scores with your friends. Making the game I learned so much about C# and game programming as a whole. I've always had a small interest in game development but have never taken a course here at Miami,
+      so making this game taught me a huge amount is a very small amount of time. </p>
         </div>
         <div class="col-sm-3 sidenav text-center">
         <img src="ballGame.png" alt="Picture of me" class="img-fluid w-100">
@@ -84,10 +89,6 @@
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
       <script>
          $(document).ready(function(){
-           $("#main").slideUp(1);
-           $("#main2").slideUp(1);
-           $("#main").slideDown(1000);
-           $("#main2").slideDown(1000);
            $("#navPort").css({"text-decoration": "underline"});
          });
       </script>

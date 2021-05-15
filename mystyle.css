@@ -28,7 +28,11 @@ html *
 }
 #textBox
 {
-font-size: 1.8vw;
+font-size: 1.4vw;
+}
+#textBox
+{
+font-size: 1.2vw;
 }
 #Explanation
 {

@@ -24,6 +24,9 @@
                   <li class="nav-item">
                      <a class="nav-link" href="portfolio.html" id = "navCal">Portfolio</a>
                   </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="contact.html" id = "navCal">Contact Me</a>
+                  </li>
                </ul>
             </div>
          </nav>
@@ -31,7 +34,7 @@
       </div>
       <div class="container-fluid">
         <div class="row content">
-          <img src="libraryRaw.png" alt="Studying Image" class="img-fluid w-100">
+          <img src="libraryResume.png" alt="Studying Image" class="img-fluid w-100">
           <p class = "text-over-img"></p>
         </div>
       </div>
@@ -49,17 +52,18 @@
             <!-- W = 800 h = 1131-->
                 <img id="Image-Maps-Com-image-maps-2021-05-04-202813" src="SizedResume.jpg" border="0" width="800" height="1131" orgWidth="800" orgHeight="1131" usemap="#image-maps-2021-05-04-202813" alt="" />
                 <map name="image-maps-2021-05-04-202813" id="ImageMapsCom-image-maps-2021-05-04-202813">
-                  <area  alt="" title="" shape="rect" coords="73,268,418,313" a href="#" onclick="return false;" style="outline:none;" target="_self" onMouseDown = "setDescription('High School Description')"  />
-                  <area  alt="" title="" shape="rect" coords="71,324,486,379" a href="#" onclick="return false;" style="outline:none;" target="_self" onMouseDown = "setDescription('College Description')"     />
-                  <area  alt="" title="" shape="rect" coords="101,414,310,434" a href="#" onclick="return false;" style="outline:none;" target="_self" onMouseDown = "setDescription('Web App Programming Description')"    />
+                  <area  alt="" title="" shape="rect" coords="73,268,418,313" a href="#" onclick="return false;" style="outline:none;" target="_self" onMouseDown = "setDescription('Darien high school is where I took my first computer science programming course. I immediately fell in love with the subject and ended up taking AP computer science. Computer science class was the only class that I would get genuinely excited to attend.  ')"  />
+                  <area  alt="" title="" shape="rect" coords="71,324,486,379" a href="#" onclick="return false;" style="outline:none;" target="_self" onMouseDown = "setDescription('What attracted me to Miami University was its huge computer science department. With 26 staff and over 600 students in the CS department, they offer a large amount of diverse computer science courses that allowed me to explore different options and see what I enjoyed. ')"     />
+                  <area  alt="" title="" shape="rect" coords="101,414,310,434" a href="#" onclick="return false;" style="outline:none;" target="_self" onMouseDown = "setDescription('The Web Application Programming course taught me a huge amount of web development knowledge. Javascript, HTML, CSS, AJAX were all taught and several projects were assigned for each. ')"    />
                   <area  alt="" title="" shape="rect" coords="321,414,520,433" a href="#" onclick="return false;" style="outline:none;" target="_self" onMouseDown = "setDescription('Intro To Software Engineering Description')"   />
                   <area  alt="" title="" shape="rect" coords="102,432,182,452" a href="#" onclick="return false;" style="outline:none;" target="_self" onMouseDown = "setDescription('Systems II Description')"  />
                   <area  alt="" title="" shape="rect" coords="201,433,300,453" a href="#" onclick="return false;" style="outline:none;" target="_self" onMouseDown = "setDescription('Discrete Math Description')"    />
-                  <area  alt="" title="" shape="rect" coords="319,432,441,453" a href="#" onclick="return false;" style="outline:none;" target="_self" onMouseDown = "setDescription('Machine Learning Description')"    />
+                  <area  alt="" title="" shape="rect" coords="319,432,441,453" a href="#" onclick="return false;" style="outline:none;" target="_self" onMouseDown = "setDescription('Machine learning has been one of the hardest and most statisfying courses I have taken at Miami University. I learned about ')"    />
                   <area  alt="" title="" shape="rect" coords="106,457,230,475" a href="#" onclick="return false;" style="outline:none;" target="_self" onMouseDown = "setDescription('Database Systems Description')"    />
                   <area  alt="" title="" shape="rect" coords="246,458,367,475" a href="#" onclick="return false;" style="outline:none;" target="_self" onMouseDown = "setDescription('Intro To Statistics Description')"    />
-                  <area  alt="" title="" shape="rect" coords="548,221,753,255" a href="#" onclick="return false;" style="outline:none;" target="_self" onMouseDown = "setDescription('Java Description')"    />
-                  <area  alt="" title="" shape="rect" coords="548,256,752,288" a href="#" onclick="return false;" style="outline:none;" target="_self" onMouseDown = "setDescription('C++ Description')"    />
+                  <area  alt="" title="" shape="rect" coords="548,221,753,255" a href="#" onclick="return false;" style="outline:none;" target="_self" onMouseDown = "setDescription('Java was the first language I learned in junior year of high school. Since then I've had classes in it every single year and have
+                  learned everything from data structures to algorithms using it.')"    />
+                  <area  alt="" title="" shape="rect" coords="548,256,752,288" a href="#" onclick="return false;" style="outline:none;" target="_self" onMouseDown = "setDescription('I first started learning C++ )"    />
                   <area  alt="" title="" shape="rect" coords="550,289,754,343" a href="#" onclick="return false;" style="outline:none;" target="_self" onMouseDown = "setDescription('Web Development Description')"    />
                   <area  alt="" title="" shape="rect" coords="551,343,758,375" a href="#" onclick="return false;" style="outline:none;" target="_self" onMouseDown = "setDescription('Database Management Description')"    />
                   <area  alt="" title="" shape="rect" coords="549,379,761,409" a href="#" onclick="return false;" style="outline:none;" target="_self" onMouseDown = "setDescription('Python Description')"    />
@@ -99,10 +103,6 @@
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
       <script>
          $(document).ready(function(){
-           $("#main").slideUp(1);
-           $("#main2").slideUp(1);
-           $("#main").slideDown(1000);
-           $("#main2").slideDown(1000);
            $("#navRes").css({"text-decoration": "underline"});
          });
          function showTutorial(name) {
@@ -110,8 +110,10 @@
                return false;
             }
           function setDescription(description) {
-
+              $("#Description").slideUp(1);
               $("#Description").html(description);
+              $("#Description").slideDown(1000);
+
             }
 
 
