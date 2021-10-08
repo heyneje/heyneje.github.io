@@ -13,12 +13,35 @@
     </script>
   </head>
   <body>
+    <div class= "container">
+       <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark" class = "navBarId">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+             <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                   <a class="nav-link" href="index.html" id = "navInfo">Home</a>
+                </li>
+                <li class="nav-item">
+                   <a class="nav-link" href="resume.html" id = "navCal">Interactive Resume</a>
+                </li>
+                <li class="nav-item">
+                   <a class="nav-link" href="portfolio.html" id = "navPort">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                   <a class="nav-link" href="contact.html" id = "navCal">Contact Me</a>
+                </li>
+             </ul>
+          </div>
+       </nav>
+       <br>
+    </div>
     <div class="webgl-content">
       <div id="unityContainer" style="width: 960px; height: 600px"></div>
       <div class="footer">
-        <div class="webgl-logo"></div>
         <div class="fullscreen" onclick="unityInstance.SetFullscreen(1)"></div>
-        <div class="title">Ball Game</div>
+        <div class="title">Ramps and Tubes</div>
       </div>
     </div>
   </body>
